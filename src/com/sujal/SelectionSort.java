@@ -17,7 +17,7 @@ public class SelectionSort {
     }
 
     // swapping
-    static void swapping(int[] arr, int first , int second){
+   public static void swapping(int[] arr, int first , int second){
         int temp = arr[first];
         arr[first] = arr[second];
         arr[second] = temp;
